@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+#navigation-bar{
+    
+    width: 100%;
+    height:150px;
+    background-color: #333;
+    text-align: center;
+    border-bottom: rgb(148, 10, 10) solid 15px;
+}
+
+#logonav{
+    float: left;
+    margin-left: 50px;
+    height:150px;
+}
+
+#nav{
+    float:right;
+    margin-top:70px;
+    margin-right:100px ;
+    
+
+}
+
+.nav-links-item{
+    color:black;
+    margin-left:30px ;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Oswald', sans-serif;
+}
+.nav-links-item:hover{
+    text-decoration: underline 3px;
+}
+
+
+#first{
+    text-align: center;
+    height:515px;
+    background-image: url('skates.jpg');
+    background-size: cover;
+   
+    
+    
+}
+
+#div2{
+    padding-top: 180px;
+    background-color: rgba(255, 255, 255, 0.609);
+    padding-bottom: 305px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#borderr{
+    background-color: rgb(148, 10, 10);
+    width: 100%;
+    height: 15px;
+}
+
+#bcool{
+    width:100%;
+    height:200px;
+    text-align:center;
+    background-color:#333;
+}
+
+#bcool2{
+    height:200px ;
+    float: left;
+}
+
+
+
